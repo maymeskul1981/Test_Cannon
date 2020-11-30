@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<GUI>  
+  <Layer name="MenuLayer">
+    <Controls>
+      <FlashWidget name="FlashWidget" designWidth="1024" designHeight="768"/>
+      <Button name="Ok">
+        <position x="512" y="384"/>
+        <state normal="OkNormal" active="OkActive" pressed="OkPressed"/>
+      </Button>      
+    </Controls>
+  </Layer>
+</GUI>

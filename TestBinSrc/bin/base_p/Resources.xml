@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Resources>
+	<FreeTypeFonts group="TestGroup" upload="false">
+		<font name="arial" family="arial" size="12" color="255;255;255;255" letterSpacing="0">
+			<Effect alpha="0.1" type="shadow" blurX="2" blurY="2" strength="50" angle="0" inner="false" color="0;0;0;255" offset="0"/>
+		</font>
+	</FreeTypeFonts>
+  <Textures group="bg">
+    <texture id="Background" path="textures/background.png" />
+  </Textures>
+  <Textures>
+    <texture id="Cannon" path="textures/cannon.png" group="TestGroup" upload="false"/>
+    <texture id="Bullet" path="textures/bullet.png" group="TestGroup" upload="false"/>
+    <texture id="target1" path="textures/coronavirus_1.png" group="TestGroup" upload="false"/>
+    <texture id="target2" path="textures/coronavirus_2.png" group="TestGroup" upload="false"/>
+    <texture id="target3" path="textures/coronavirus_3.png" group="TestGroup" upload="false"/>
+    <texture id="target4" path="textures/coronavirus_4.png" group="TestGroup" upload="false"/>
+    <texture id="target5" path="textures/coronavirus_5.png" group="TestGroup" upload="false"/>    
+    <texture id="Aim" path="textures/Aim.png" group="TestGroup" upload="false"/>
+    <texture id="Circle" path="textures/circle.png" group="TestGroup" upload="false"/>
+    <texture id="btnStart_Text" path="textures/Local/Buttons/Start_text.png" group="MainMenu" upload="true"/>
+    <texture id="cancel_normal" path="textures/cancel_normal.png" group="MainMenu" upload="true"/>
+    <texture id="cancel_active" path="textures/cancel_active.png" group="MainMenu" upload="true"/>
+    <texture id="cancel_pressed" path="textures/cancel_pressed.png" group="MainMenu" upload="true"/>
+    <texture id="OkNormal" path="textures/ok_normal.png" group="MainMenu" upload="true"/>
+    <texture id="OkActive" path="textures/ok_active.png" group="MainMenu" upload="true"/>
+    <texture id="OkPressed" path="textures/ok_pressed.png" group="MainMenu" upload="true"/>
+	</Textures>
+  <Sounds group="TestGroup">
+    <sample id="track1" path="sounds/musik1.ogg" mix="2" mode="stream+cache"/>
+    <sample id="sound1" path="sounds/loplop.ogg" mix="2" mode="cache"/>
+  </Sounds>
+</Resources>
